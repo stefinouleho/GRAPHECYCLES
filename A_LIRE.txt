@@ -15,4 +15,4 @@ Parametre 2 : Nombre de sommets maximum  VALEUR = 2
 La mésure dde similarité est basé sur le nomnbre de sommets uniquement.
 sim ( G1,G2) = V12*V12/V1*V2
 
-Le résultat est stocké dans le dossier CHEBI/chebi_id/similarite_(chebi_id)_all.data
+Le résultat est stocké dans le dossier resultat/similarite_(chebi_id)_temps_taille_type_all.data
