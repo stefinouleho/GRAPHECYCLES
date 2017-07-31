@@ -1,0 +1,18 @@
+
+Ce dossier permet de calculer la similarité d'une molécule passé en argument avec toutes les autres molécules de la base de données de molécules.
+
+La mésure de similarité s'effectue sur le graphes de cycles des molécules . 
+
+
+Parametre 2 : MCES  VALEUR = 1
+Il s'agit du modèle défini pendant mon stage de master 2.
+Le calcul de la similarité se base sur le MCES ( Maximum Common Edge Subgraph).
+
+Soit G1 la molécule et G2 une autre molécule de la base. On note G12 un sous-graphe commun maximum alors sim ( G1,G2) = (V12 +E12)*(V12 +E12) /(V1 +E1)*(V2 +E2)
+
+Parametre 2 : Nombre de sommets maximum  VALEUR = 2
+
+La mésure dde similarité est basé sur le nomnbre de sommets uniquement.
+sim ( G1,G2) = V12*V12/V1*V2
+
+Le résultat est stocké dans le dossier CHEBI/chebi_id/similarite_(chebi_id)_all.data
